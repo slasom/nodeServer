@@ -9,7 +9,7 @@
   },
   "scripts": {
     "prestart": "npm install",
-    "preinstall": "napa && rm -rf node_modules/*/.git/",
+    "install": "napa && rm -rf node_modules/*/.git/",
     "start": "node index.js"
   },
   "keywords": [
