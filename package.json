@@ -8,6 +8,7 @@
     "npm": "6.x"
   },
   "scripts": {
+    "preinstall": "rm -rf node_modules/react-native-safe-area-view/.git",
     "prestart": "npm install",
     "start": "node index.js"
   },
