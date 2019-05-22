@@ -8,8 +8,8 @@
     "npm": "6.x"
   },
   "scripts": {
-    "preinstall": "rm -rf node_modules/react-native-safe-area-view/.git",
     "prestart": "npm install",
+    "preinstall": "napa && rm -rf node_modules/*/.git/",
     "start": "node index.js"
   },
   "keywords": [
